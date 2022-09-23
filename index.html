@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     <title>Sneakrs Landing Page</title>
 </head>
 
 <body>
+
     <!--header controlling logo and links to other pages at the top-->
     <div class="container-fluid">
-        <header class="row justify-content-md-center">
 
+        <header class="row justify-content-md-center">
             <video loop autoplay class="col" height="200px">
                 <source src="solelogo.mp4">
             </video>
-
-
+            <!--links-->
             <a href="#" class="col col-lg-2">Home</a>
             <a href="#" class="col col-lg-2">Collection</a>
             <a href="#" class="col col-lg-2">Blog</a>
         </header>
+
     </div>
 
-    <!--the divs handle each section of the landing page.-->
+    <!--the main div with heading and image-->
     <div class="container-fluid">
         <div class="row top justify-content-md-center">
-            <div class="col col-2">
+            <div class="col">
                 <h1>Sneaker Dealer</h1>
                 <p>Consequat irure eiusmod excepteur cillum sit eiusmod nisi pariatur. Officia amet occaecat fugiat anim
                     qui dolor
@@ -46,8 +48,10 @@
                     irure.</p>
                 <button>Sign Up</button>
             </div>
-            <div class="col col-2">
-                <img src="images/traveling.png" alt="">
+
+            <!--image-->
+            <div class="col">
+                <img src="images/traveling.png" alt="Responsive image" class="img-fluid">
             </div>
 
         </div>
@@ -55,16 +59,28 @@
 
 
 
-    <div class="sneakers">
-        <h2>top sneakers</h2>
-        <img src="" alt="">
-        <caption></caption>
-        <img src="" alt="">
-        <caption></caption>
-        <img src="" alt="">
-        <caption></caption>
-        <img src="" alt="">
-        <caption></caption>
+    <div class="container-fluid sneakers">
+        <div class="row">
+            <h2 class="justify-content-md-center">top sneakers</h2>
+
+            <div class="col">
+                <img src="images/traveling.png" alt="" class="img-fluid">
+                <caption>fire kicks</caption>
+            </div>
+
+            <div class="col">
+                <img src="" alt="">
+                <caption>dfddf</caption>
+            </div>
+
+
+
+            <img src="" alt="">
+            <caption></caption>
+            <img src="" alt="">
+            <caption></caption>
+        </div>
+
     </div>
 
     <div class="quote">
