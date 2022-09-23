@@ -30,6 +30,10 @@ a:active {
 
 /*sneakers section*/
 
+div>h2 {
+    margin: auto;
+}
+
 .sneakers {
     background-color: #0F3460;
     color: white;
@@ -39,6 +43,7 @@ a:active {
 
 .quote {
     background-color: #533483;
+    color: white;
 }
 
 
@@ -46,8 +51,13 @@ a:active {
     background-color: #277BC0;
 }
 
-.footer {
+/*footer*/
+
+footer {
     background-color: #E94560;
+    display: flex;
+    justify-content: center;
+
 }
 
 /* media queries for different screen sizes */
