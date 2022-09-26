@@ -23,6 +23,9 @@ a:active {
 .top {
     background-color: #16213E;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 /* main heading on main section */
@@ -30,7 +33,7 @@ h1 {
     font: 60pt 'Nosifer', cursive;
     color: orange;
     font-weight: bold;
-    text-align: center;
+    padding-top: 40px;
 }
 
 /*under the sneakr dealr heading*/
