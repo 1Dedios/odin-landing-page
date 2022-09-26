@@ -35,7 +35,7 @@ h1 {
 
 /*under the sneakr dealr heading*/
 
-p {
+.landing-main {
     font: 18px #e5e7eb;
     opacity: 0.75;
 
@@ -59,6 +59,7 @@ button {
     padding: 20px 40px;
     text-align: center;
     border: 2px solid aqua;
+    font-weight: bold;
 }
 
 button:hover {
@@ -75,6 +76,7 @@ h2 {
 .sneaker-cards-background {
     background-color: #0F3460;
     color: white;
+    height: 50vh;
 }
 
 .sneaker-cards {
@@ -86,27 +88,48 @@ h2 {
 /*quote section*/
 
 .quote {
-    background-color: #533483;
+    background-image: url(images/mountain2.jpg);
+    background-size: cover;
     color: white;
     text-align: center;
-    padding: 30px 30px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 blockquote {
     font-size: 36px;
+    font-style: italic;
+}
+
+figcaption {
+    color: aliceblue;
 }
 
 /*call to action section*/
 
 .bottom {
-    background-color: #e5e7eb;
-    height: 20vh;
+    background-color: orange;
+    height: 25vh;
 }
 
 
 .action {
     background-color: #277BC0;
+    border-radius: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50vh;
+}
 
+.action-message {
+    margin: auto;
+    color: orange;
+    opacity: 100%;
+    font-style: italic;
 }
 
 /*footer*/
