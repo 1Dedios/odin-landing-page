@@ -53,14 +53,16 @@ button {}
 
 /*sneaker cards section*/
 
-div>h2 {
-    margin: auto;
-}
-
-.sneakers {
+.sneaker-cards-background {
     background-color: #0F3460;
     color: white;
 }
+
+.sneaker-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*quote section*/
 
