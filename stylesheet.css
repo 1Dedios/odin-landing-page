@@ -1,5 +1,7 @@
 * {
     font-size: 16px;
+    /*the font size above is apparently the best practice*/
+
 }
 
 
@@ -24,8 +26,17 @@ a:active {
 }
 
 /* main heading on main section */
-.top>h1 {
-    font-family: 'Nosifer', cursive;
+h1 {
+    font: 60pt 'Nosifer', cursive;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font: 18px #e5e7eb;
+    opacity: 0.6;
+    text-align: center;
 }
 
 /*sneakers section*/
@@ -44,20 +55,37 @@ div>h2 {
 .quote {
     background-color: #533483;
     color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+blockquote {
+    font-size: 36px;
+}
+
+.bottom {
+    background-color: #e5e7eb;
+    height: 20vh;
 }
 
 
 .action {
     background-color: #277BC0;
+
 }
 
 /*footer*/
 
-footer {
+.footer {
     background-color: #E94560;
-    display: flex;
-    justify-content: center;
+    height: 5vh;
+}
 
+.footer-text {
+    margin: auto;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
 }
 
 /* media queries for different screen sizes */
