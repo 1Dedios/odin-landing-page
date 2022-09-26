@@ -19,9 +19,8 @@
 
 <body>
 
-    <!--header controlling logo and links to other pages at the top-->
+    <!--nav bar at the top-->
     <div class="container-fluid">
-
         <header class="row justify-content-md-center">
             <video loop autoplay class="col" height="200px">
                 <source src="solelogo.mp4">
@@ -34,42 +33,78 @@
 
     </div>
 
-    <!--the main div with heading and image-->
+    <!--the main landing div with heading and image-->
     <div class="container-fluid">
         <div class="row top justify-content-md-center">
-            <div class="col">
+            <div class="col container-fluid">
                 <h1>Sneakr <br> Dealr</h1>
-                <p>The only place to get your shoe fix!</p>
+                <p>The only place to get your shoe fix.</p>
+                <br>
+                <p class="enter">ENTER OUR WORLD!</p>
                 <button>Sign Up</button>
             </div>
 
-            <!--image-->
+            <!--main image-->
             <div class="col">
-                <img src="images/traveling.png" alt="Responsive image" class="img-fluid">
+                <img src="images/main.png" alt="Responsive image" class="img-fluid">
             </div>
-
         </div>
     </div>
 
+    <!--sneaker section-->
     <div class="container-fluid sneakers">
         <!--heading-->
         <h2 class="row justify-content-md-center">top sneakers</h2>
-        <!--sneaker images-->
-        <div class="row">
-            <div class="col">
-                <img src="images/traveling.png" alt="" class="img-fluid">
-                <caption>fire kicks</caption>
+        <!--sneaker cards-->
+        <div class="container-fluid">
+            <!--div controlling all the cards-->
+
+            <!--card 1-->
+            <div class="row container-fluid">
+                <div class="card-deck">
+                    <div class="card bg-transparent">
+                        <img class="card-img-top img-fluid card1" src="images/sneakers.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fall Kicks</h5>
+                            <p class="card-text">Dope Sneakers</p>
+                        </div>
+                    </div>
+                </div>
+                <!--card 2-->
+
+                <div class="card-deck container-fluid" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="images/shoe.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quicddfdk example text to build on the card title and make up the bulk
+                            of the card's
+                            content.</p>
+                    </div>
+                </div>
+
+                <!--card 3-->
+
+                <div class="card-deck container-fluid" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src=".../100px180/?text=Image cap" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="col">
-                <img src="images/traveling.png" alt="" class="img-fluid">
-                <caption>dfddf</caption>
-            </div>
+        </div>
 
-            <div class="col">
-                <img src="images/traveling.png" alt="" class="img-fluid">
-                <caption>dfddf</caption>
-            </div>
+
+        <div class="col">
+            <img src="images/traveling.png" alt="" class="img-fluid">
+            <caption>dfddf</caption>
+        </div>
+
+        <div class="col">
+            <img src="images/traveling.png" alt="" class="img-fluid">
+            <caption>dfddf</caption>
         </div>
     </div>
 

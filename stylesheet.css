@@ -33,13 +33,25 @@ h1 {
     text-align: center;
 }
 
+/*under the sneakr dealr heading*/
+
 p {
     font: 18px #e5e7eb;
-    opacity: 0.6;
+    opacity: 0.75;
     text-align: center;
 }
 
-/*sneakers section*/
+/*the enter our world styling under the sneakr dealr heading*/
+.enter {
+    font-style: italic;
+}
+
+/*sign up button styling*/
+
+button {}
+
+
+/*sneaker cards section*/
 
 div>h2 {
     margin: auto;
@@ -50,7 +62,7 @@ div>h2 {
     color: white;
 }
 
-/*sneakers section*/
+/*quote section*/
 
 .quote {
     background-color: #533483;
@@ -62,6 +74,8 @@ div>h2 {
 blockquote {
     font-size: 36px;
 }
+
+/*call to action section*/
 
 .bottom {
     background-color: #e5e7eb;
