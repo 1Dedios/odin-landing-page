@@ -1,7 +1,7 @@
 * {
     font-size: 16px;
     /*the font size above is apparently the best practice*/
-
+    font-family: 'M PLUS 1p', sans-serif;
 }
 
 
@@ -71,6 +71,7 @@ button:hover {
 
 h2 {
     font-family: 'Nosifer', cursive;
+    font-size: 28pt;
 }
 
 .sneaker-cards-background {
@@ -111,7 +112,7 @@ figcaption {
 
 .bottom {
     background-color: orange;
-    height: 25vh;
+    height: 40vh;
 }
 
 
@@ -120,17 +121,29 @@ figcaption {
     border-radius: 30px;
     color: aliceblue;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 50vh;
+    flex-direction: column;
+
+
+}
+
+h3 {
+    font-family: 'Nosifer', cursive;
+}
+
+h4 {
+    font: italic bold 20px 'M PLUS 1p', sans-serif;
+    padding-top: 20px;
+
+
 }
 
 .action-message {
-    margin: auto;
     color: orange;
     opacity: 100%;
-    font-style: italic;
+
 }
+
+.action-button {}
 
 /*footer*/
 
