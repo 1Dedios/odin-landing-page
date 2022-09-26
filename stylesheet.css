@@ -48,10 +48,29 @@ p {
 
 /*sign up button styling*/
 
-button {}
+button {
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    align-self: center;
+    font-size: 17px;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    border: 2px solid aqua;
+}
 
+button:hover {
+    color: orange;
+    box-shadow: 3px 3px 20px #03e9f4, 3px 2px 20px #03e9f4;
+}
 
 /*sneaker cards section*/
+
+h2 {
+    font-family: 'Nosifer', cursive;
+}
 
 .sneaker-cards-background {
     background-color: #0F3460;
