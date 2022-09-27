@@ -2,22 +2,24 @@
     font-size: 16px;
     /*the font size above is apparently the best practice*/
     font-family: 'M PLUS 1p', sans-serif;
+    max-height: 100%;
 }
 
 
-header {
+.navbar {
     background-color: #061320;
-    border: none;
-    color: white;
+    color: aliceblue;
 }
 
+/*links*/
 a,
+a:hover,
+a:focus,
 a:active {
-    display: flex;
-    align-items: center;
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
+
 
 /*main section*/
 .top {
@@ -80,7 +82,7 @@ h2 {
 .sneaker-cards-background {
     background-color: #0F3460;
     color: white;
-    height: 50vh;
+    height: 70vh;
 }
 
 .sneaker-cards {
@@ -168,13 +170,11 @@ h4 {
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    ...
-}
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    ...
+    .sneaker-cards-background {}
 }
 
 // Large devices (desktops, 992px and up)
