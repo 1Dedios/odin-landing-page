@@ -83,7 +83,9 @@ button:hover {
 h2 {
     font-family: 'Nosifer', cursive;
     font-size: 28pt;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .sneaker-cards-background {
