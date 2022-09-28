@@ -191,3 +191,7 @@ h4 {
 @media (min-width: 1200px) {
     ...
 }
+
+/* media queries for iphone 13's*/
+
+@media (min-width: 375px) {}
