@@ -169,6 +169,7 @@ h4 {
     padding: 10px 10px;
     color: white;
     font-weight: bold;
+
 }
 
 /* media queries for different screen sizes */
@@ -192,6 +193,47 @@ h4 {
     ...
 }
 
+
 /* media queries for iphone 13's*/
 
-@media (min-width: 375px) {}
+
+/* 13 mini */
+
+@media (max-width: 375px) {
+    * {
+        width: fit-content;
+    }
+
+    h1 {
+        font-size: 48pt;
+    }
+
+    .enter {
+        font-style: italic;
+        margin: auto;
+    }
+
+    .credit {
+        margin: auto;
+    }
+
+    .action {
+        margin: auto;
+    }
+
+    /*the footer text is not aligning*/
+    .footer-text {
+        margin: auto;
+    }
+
+
+}
+
+/* 13 & 13 pro */
+
+@media (max-width: 390px) {}
+
+/* 13 pro max */
+
+
+@media (max-width: 428px) {}
