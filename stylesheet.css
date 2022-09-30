@@ -8,7 +8,20 @@
 .navbar {
     background-color: #061320;
     color: aliceblue;
+
 }
+
+video,
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span {
+    font: 55pt 'Nosifer', cursive;
+    color: orange;
+}
+
 
 /*links*/
 a,
@@ -35,6 +48,7 @@ h1 {
     color: orange;
     font-weight: bold;
     padding-top: 40px;
+    font-style: italic;
 }
 
 /*under the sneakr dealr heading*/

@@ -20,19 +20,42 @@
 <body>
 
     <!--main navbar-->
-    <nav class="navbar navbar-expand">
-        <a href="#">
-            <video playsinline autoplay muted loop height="150px" class="navbar-brand">
-                <source src="solelogo.mp4">
-            </video>
-            <!--the autoplay attribute can be an unpleasant experience for users. 
-            It's best to let them opt in and let them know that the site has autoplay features.-->
-        </a>
-        <!--links-->
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">Collection</a>
-        <a href="#" class="nav-link">Blog</a>
-    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar .navbar-expand{-sm|-md|-lg|-xl}">
+                    <a href="#" class="navbar-brand">
+                        <video playsinline autoplay muted loop height="150px">
+                            <source src="solelogo.mp4">
+                        </video>
+                        <!--the autoplay attribute can be an unpleasant experience for users. 
+                        It's best to let them opt in and let them know that the site has autoplay features.-->
+                        <span class="brand-name">Sneakr Dealr</span>
+                    </a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar .navbar-expand{-sm|-md|-lg|-xl}">
+                    <!--links-->
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Collection</a>
+                    <a href="#" class="nav-link">Blog</a>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+
+
 
 
     <!--the main landing div with heading and image-->
