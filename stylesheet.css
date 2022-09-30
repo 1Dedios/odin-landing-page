@@ -17,9 +17,13 @@ span {
     vertical-align: middle;
 }
 
+/*controlling the brand name on the top nav bar*/
 span {
-    font: 55pt 'Nosifer', cursive;
+    font: 36pt 'Nosifer', cursive;
     color: orange;
+    text-align: center;
+    padding-left: 10px;
+    font-style: italic;
 }
 
 
@@ -33,7 +37,7 @@ a:active {
 }
 
 
-/*main section*/
+/*main content div*/
 .top {
     background-color: #16213E;
     color: white;
