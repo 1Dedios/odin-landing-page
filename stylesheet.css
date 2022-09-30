@@ -41,9 +41,6 @@ a:active {
 .top {
     background-color: #16213E;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 /* main heading on main section */
@@ -190,7 +187,7 @@ h4 {
 
 }
 
-/* media queries for different screen sizes */
+/* media queries writen in sass */
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
