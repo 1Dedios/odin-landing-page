@@ -4,13 +4,13 @@
     font-family: 'M PLUS 1p', sans-serif;
 }
 
-
+/*navbar*/
 .navbar {
     background-color: #061320;
     color: aliceblue;
-
 }
 
+/*aligns the brand element with the brand name*/
 video,
 span {
     display: inline-block;
@@ -27,7 +27,7 @@ span {
 }
 
 
-/*links*/
+/* nav links*/
 a,
 a:hover,
 a:focus,
@@ -43,26 +43,34 @@ a:active {
     color: white;
 }
 
-/* main heading on main section */
+.shoe-prints {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 h1 {
-    font: 55pt 'Nosifer', cursive;
-    color: orange;
+    font: 55pt 'Bungee Spice', cursive;
+    color: white;
     font-weight: bold;
     padding-top: 40px;
     font-style: italic;
 }
 
-/*under the sneakr dealr heading*/
-
-.landing-main {
-    font: 18px #e5e7eb;
-    opacity: 0.75;
-
+.title {
+    font-size: 48px;
+    font-family: 'Revalia', cursive;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
 }
 
 /*the enter our world styling under the sneakr dealr heading*/
 .enter {
     font-style: italic;
+    font-variant: small-caps;
+    padding-top: 30px;
+    font-size: 18px;
 }
 
 /*sign up button styling*/
@@ -166,7 +174,7 @@ h3 {
 }
 
 h4 {
-    font: italic bold 20px 'M PLUS 1p', sans-serif;
+    font: italic bold 32px 'M PLUS 1p', sans-serif;
     padding-top: 20px;
     color: orange;
     opacity: 100%;
