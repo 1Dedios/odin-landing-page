@@ -41,35 +41,37 @@ a:active {
 .top {
     background-color: #16213E;
     color: white;
+    padding-bottom: 20px;
 }
 
 .shoe-prints {
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
 h1 {
-    font: 55pt 'Bungee Spice', cursive;
-    color: white;
-    font-weight: bold;
-    padding-top: 40px;
-    font-style: italic;
-}
-
-.title {
-    font-size: 48px;
-    font-family: 'Revalia', cursive;
+    font: 55pt 'Nosifer', cursive;
     color: white;
     font-weight: bold;
     font-style: italic;
     font-variant: small-caps;
+    text-shadow: 2px 2px orange;
+    padding-top: 30px;
 }
+
+
+.subheading {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 22px;
+}
+
+
 
 /*the enter our world styling under the sneakr dealr heading*/
 .enter {
     font-style: italic;
     font-variant: small-caps;
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 18px;
 }
 
