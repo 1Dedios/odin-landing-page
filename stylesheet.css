@@ -26,7 +26,6 @@ span {
     font-style: italic;
 }
 
-
 /* nav links*/
 a,
 a:hover,
@@ -58,49 +57,16 @@ h1 {
     padding-top: 30px;
 }
 
-
 .subheading {
     font-weight: bold;
     font-variant: small-caps;
     font-size: 22px;
 }
 
-
-
-/*the enter our world styling under the sneakr dealr heading*/
-.enter {
-    font-style: italic;
-    font-variant: small-caps;
-    padding-top: 10px;
-    font-size: 18px;
-}
-
-/*sign up button styling*/
-
-button {
-    background: transparent;
-    box-sizing: border-box;
-    border-radius: 0.6rem;
-    align-self: center;
-    font-size: 17px;
-    color: aliceblue;
-    margin: 20px;
-    padding: 20px 40px;
-    text-align: center;
-    border: 2px solid aqua;
-    font-weight: bold;
-}
-
-button:hover {
-    color: orange;
-    box-shadow: 3px 3px 20px #03e9f4, 3px 2px 20px #03e9f4;
-}
-
 /*main image*/
 .main-img {
     margin: auto;
 }
-
 
 
 /*sneaker cards section*/
@@ -131,7 +97,6 @@ h2 {
 }
 
 /*quote section*/
-
 .quote {
     background-image: url(images/mountain2.jpg);
     background-size: cover;
@@ -153,7 +118,6 @@ figcaption {
 }
 
 /*call to action section*/
-
 .bottom {
     background-color: orange;
     padding-bottom: 40px;
@@ -168,13 +132,14 @@ figcaption {
     align-items: center;
     justify-content: center;
     align-content: center;
-
 }
 
+/*section title*/
 h3 {
     font-family: 'Nosifer', cursive;
 }
 
+/*member section*/
 h4 {
     font: italic bold 32px 'M PLUS 1p', sans-serif;
     padding-top: 20px;
@@ -188,6 +153,26 @@ h4 {
     font-weight: bold;
     padding-top: 15px;
 
+}
+
+/*sign up button styling*/
+button {
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    align-self: center;
+    font-size: 17px;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    border: 2px solid aqua;
+    font-weight: bold;
+}
+
+button:hover {
+    color: orange;
+    box-shadow: 3px 3px 20px #03e9f4, 3px 2px 20px #03e9f4;
 }
 
 /*footer*/
