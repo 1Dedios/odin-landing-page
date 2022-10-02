@@ -155,7 +155,9 @@ figcaption {
     color: aliceblue;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
@@ -166,11 +168,15 @@ h3 {
 h4 {
     font: italic bold 20px 'M PLUS 1p', sans-serif;
     padding-top: 20px;
+    color: orange;
+    opacity: 100%;
 }
 
 .action-message {
-    color: orange;
+    color: aliceblue;
     opacity: 100%;
+    font-weight: bold;
+    padding-top: 15px;
 
 }
 
