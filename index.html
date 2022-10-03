@@ -23,10 +23,12 @@
 </head>
 
 <body>
-    <!-- navbar at the top -->
-    <nav class="navbar .navbar-expand{-sm|-md|-lg|-xl}">
+
+    <!-- navbar with the hamburger menu -->
+    <nav class="navbar navbar-expand-lg">
+
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">
+            <a class="navbar-brand" href="#">
                 <video playsinline autoplay muted loop height="150px">
                     <source src="solelogo.mp4">
                 </video>
@@ -34,109 +36,24 @@
                 It's best to let them opt in and let them know that the site has autoplay features.-->
                 <span class="brand-name">Sneakr <br> Dealr</span>
             </a>
-
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-
-            <nav class="nav justify-content-center">
-                <a href="" class="nav-link active" aria-current="page"> Home</a>
-                <a href="" class="nav-link"> Collection <i class="fa-solid fa-cart-shopping"></i> </a>
-                <a href="" class="nav-link"> Blog</a>
-            </nav>
-
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-
-
-
-        </div>
-    </nav>
-
-    <!-- navbar with the hamburger menu -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <video playsinline autoplay muted loop height="150px">
-                    <source src="solelogo.mp4">
-                </video>
-                <!--the autoplay attribute can be an unpleasant experience for users. 
-            It's best to let them opt in and let them know that the site has autoplay features.-->
-                <span class="brand-name">Sneakr <br> Dealr</span>
-            </a>
             <button class="navbar-toggler btn btn-warning btn-sm" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Collection <i class="fa-solid fa-cart-shopping"></i> </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" aria-current="page" href="#">Blog</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>

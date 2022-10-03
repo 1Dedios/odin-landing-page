@@ -2,16 +2,12 @@
     font-size: 16px;
     /*the font size above is apparently the best practice*/
     font-family: 'M PLUS 1p', sans-serif;
-
-    @include for-phone-only {}
 }
 
 
 /*navbar*/
 .navbar {
     background-color: #061320;
-    color: aliceblue;
-
 }
 
 /*aligns the brand element with the brand name*/
@@ -30,12 +26,40 @@ span {
     font-style: italic;
 }
 
-ul {
-    list-style: none;
+/* hamburger button */
 
+.navbar-toggler {
+    background-color: white;
+    float: right;
 }
 
-/* nav links*/
+
+/* navigation links */
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+a,
+a::after,
+a:hover {
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+/* nav links
 a,
 a:hover,
 a:focus,
@@ -48,21 +72,7 @@ a:active {
     align-content: center;
 }
 
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:active {
-    color: orange;
-}
-
-
-
-
-
-
-
+ */
 
 
 
