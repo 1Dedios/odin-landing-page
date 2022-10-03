@@ -30,19 +30,9 @@ span {
     font-style: italic;
 }
 
-/* controls the navbar brand and the navbar links
-.header {
-    display: flex;
-    flex-direction: column;
-} */
-
 ul {
     list-style: none;
 
-}
-
-.nav {
-    justify-content: space-around;
 }
 
 /* nav links*/
@@ -51,10 +41,30 @@ a:hover,
 a:focus,
 a:active {
     text-decoration: none;
-    color: inherit;
-    /* display: flex;
-    justify-content: center; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:active {
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
 
 
 
