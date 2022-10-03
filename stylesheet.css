@@ -115,10 +115,11 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     margin: auto;
+    font-weight: bold;
 }
 
 figcaption {
-    color: aliceblue;
+    color: white;
 }
 
 /*call to action section*/
