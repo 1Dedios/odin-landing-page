@@ -11,6 +11,7 @@
 .navbar {
     background-color: #061320;
     color: aliceblue;
+
 }
 
 /*aligns the brand element with the brand name*/
@@ -29,6 +30,23 @@ span {
     font-style: italic;
 }
 
+/* controls the navbar brand and the navbar links
+.header {
+    display: flex;
+    flex-direction: column;
+} */
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 /* nav links*/
 a,
 a:hover,
@@ -36,7 +54,11 @@ a:focus,
 a:active {
     text-decoration: none;
     color: inherit;
+    /* display: flex;
+    justify-content: center; */
 }
+
+
 
 
 /*main content div*/
@@ -212,13 +234,7 @@ button:hover {
 /* min 576px - 768px */
 @include media-breakpoint-between(sm, md) {}
 
-@media (min-width: 375px) and (max-width: 575.98) {
-
-    html {
-        width: auto;
-    }
-
-}
+@media (min-width: 375px) and (max-width: 575.98) {}
 
 /* Small devices */
 @media (min-width: 576px) {}
