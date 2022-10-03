@@ -2,7 +2,10 @@
     font-size: 16px;
     /*the font size above is apparently the best practice*/
     font-family: 'M PLUS 1p', sans-serif;
+
+    @include for-phone-only {}
 }
+
 
 /*navbar*/
 .navbar {
@@ -73,6 +76,7 @@ h1 {
 
 h2 {
     font-family: 'Nosifer', cursive;
+    color: white;
     font-size: 28pt;
     display: flex;
     justify-content: center;
@@ -134,9 +138,11 @@ figcaption {
     align-content: center;
 }
 
-/*section title*/
+/*call to action title*/
 h3 {
     font-family: 'Nosifer', cursive;
+    margin: auto;
+    text-align: center;
 }
 
 /*member section*/
@@ -188,16 +194,43 @@ button:hover {
 
 }
 
-/* media queries writen in sass */
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+/* media queries */
+
+/* 13 mini min-width: 375px */
+
+@include media-breakpoint-between(375px, 575.98) {
+
+    * {
+        width: 100vw;
+    }
+
+}
+
+/* min 576px - 768px */
+@include media-breakpoint-between(sm, md) {}
+
+@media (min-width: 375px) and (max-width: 575.98) {
+
+    html {
+        width: auto;
+    }
+
+}
+
+/* Small devices */
 @media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    a {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -215,33 +248,11 @@ button:hover {
 
 /* 13 mini */
 
-@media (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 575.98) {
+
     * {
         width: fit-content;
     }
-
-    h1 {
-        font-size: 48pt;
-    }
-
-    .enter {
-        font-style: italic;
-        margin: auto;
-    }
-
-    .credit {
-        margin: auto;
-    }
-
-    .action {
-        margin: auto;
-    }
-
-    /*the footer text is not aligning*/
-    .footer-text {
-        margin: auto;
-    }
-
 
 }
 
