@@ -254,10 +254,82 @@ h4 {
 
 /* media queries */
 
+/* breakpoints for bootstrap 5.2.2
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+ */
+
 /* min 576px - 767.98px */
 
 @media (max-width: 767.98px) {
     * {
         max-width: 100% !important;
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    * {
+        max-width: 100% !important;
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+}
+
+/* anything after 992px will trigger the nav links to be better aligned */
+
+@media (min-width: 992px) {
+    * {
+        max-width: 100% !important;
+    }
+
+    .toggle-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+    h1 {
+        font: 72pt 'Nosifer', cursive;
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        text-shadow: 2px 2px orange;
+        padding-top: 30px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    * {
+        max-width: 100% !important;
+    }
+
+    .toggle-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+    h1 {
+        font: 86pt 'Nosifer', cursive;
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        text-shadow: 2px 2px orange;
+        padding-top: 30px;
     }
 }
