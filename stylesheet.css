@@ -135,9 +135,7 @@ h2 {
     font-family: 'Nosifer', cursive;
     color: white;
     font-size: 28pt;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
 }
 
 .sneaker-cards-background {
