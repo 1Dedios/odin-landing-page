@@ -28,10 +28,27 @@ span {
 
 /* hamburger button */
 
-.navbar-toggler {
-    background-color: white;
-    float: right;
+.navbar-toggler:hover {
+
+    color: orange;
+    box-shadow: 3px 3px 20px #03e9f4, 3px 2px 20px #03e9f4;
+
+
 }
+
+.toggle-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* 
+i {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+} */
+
 
 
 /* navigation links */
@@ -203,7 +220,7 @@ h4 {
 }
 
 /*sign up button styling*/
-button {
+.action-button {
     background: transparent;
     box-sizing: border-box;
     border-radius: 0.6rem;
@@ -217,7 +234,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.action-button:hover {
     color: orange;
     box-shadow: 3px 3px 20px #03e9f4, 3px 2px 20px #03e9f4;
 }
@@ -239,63 +256,10 @@ button:hover {
 
 /* media queries */
 
-/* 13 mini min-width: 375px */
+/* min 576px - 767.98px */
 
-@include media-breakpoint-between(375px, 575.98) {
-
+@media (max-width: 767.98px) {
     * {
-        width: 100vw;
+        max-width: 100% !important;
     }
-
 }
-
-/* min 576px - 768px */
-@include media-breakpoint-between(sm, md) {}
-
-@media (min-width: 375px) and (max-width: 575.98) {}
-
-/* Small devices */
-@media (min-width: 576px) {}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    a {
-        display: flex;
-        flex-direction: row;
-    }
-
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...
-}
-
-
-/* media queries for iphone 13's*/
-
-
-/* 13 mini */
-
-@media screen and (min-width: 375px) and (max-width: 575.98) {
-
-    * {
-        width: fit-content;
-    }
-
-}
-
-/* 13 & 13 pro */
-
-@media (max-width: 390px) {}
-
-/* 13 pro max */
-
-
-@media (max-width: 428px) {}
