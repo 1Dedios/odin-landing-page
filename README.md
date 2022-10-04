@@ -6,7 +6,7 @@
 
 The Odin Project's first project. 
 
-I was supposed to build a basic landing page with generic placeholders for images and text. I decided to make it my own and used a CSS framework - Bootstrap. Essentially, more practice for me. 
+I was supposed to build a basic landing page with generic placeholders for images and text. I decided to make it my own and used a CSS framework - Bootstrap. Essentially, more practice for me.
 
 ***
 
@@ -14,6 +14,7 @@ I was supposed to build a basic landing page with generic placeholders for image
 
 ![Landing Page Screenshot](/images/Screenshot.png "Landing Page Still")
 
+What I was supposed to deliver can be found [HERE](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 ***
 
@@ -29,15 +30,20 @@ I was supposed to build a basic landing page with generic placeholders for image
 
 ## Success Criteria:
 
-Extra practice for myself. 🤷🏽‍♂️🎉  
+- Extra practice for myself. 🤷🏽‍♂️🎉  
 <br>
-Also, challenged myself by placing active elements on the page without the use of Javascript. 
+- Also, challenged myself by placing active elements on the page without the use of Javascript. 
 
 ***
 
 ## Dependencies:
 
-dependencies heer
+1. Color Palette - [Color Hunt](https://colorhunt.co/) 🎨
+2. Illustrated Image - [Design Stripe](https://designstripe.com/)
+3. Sneaker Icons - [Flaticons](https://www.flaticon.com/)
+4. Quote Section Image - [Mountain Image](https://www.pexels.com/photo/gray-and-brown-mountain-417173/) 📸
+5. Canva - Where I created the navbar logo/video.
+6. Documenation (Organized by date - *not edited*) - [Documentation](https://www.notion.so/dediosprogramming/Odin-Landing-Page-965fd444c2554ceea97a1d20bce50e99) 📝
 
 ***
 
