@@ -287,17 +287,18 @@ $grid-breakpoints: (
     }
 }
 
-/* anything after 992px will trigger the nav links to be better aligned */
+
 
 @media (min-width: 992px) {
     * {
         max-width: 100% !important;
     }
 
-    .toggle-menu {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
+    /* anything after 992px will trigger the nav links to be better aligned but flex isn't working
+    so I'll settle for padding*/
+    li {
+        padding-left: 60px;
+
     }
 
     h1 {
@@ -317,10 +318,30 @@ $grid-breakpoints: (
         max-width: 100% !important;
     }
 
-    .toggle-menu {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
+    /* targeting the nav links towards the right more */
+    .navbar-nav {
+        padding-left: 100px;
+    }
+
+    h1 {
+        font: 86pt 'Nosifer', cursive;
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        text-shadow: 2px 2px orange;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+    * {
+        max-width: 100% !important;
+    }
+
+    /* targeting the nav links towards the right more */
+    .navbar-nav {
+        padding-left: 200px;
     }
 
     h1 {
