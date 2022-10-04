@@ -14,14 +14,12 @@ I was supposed to build a basic landing page with generic placeholders for image
 
 ![Landing Page Screenshot](/images/Screenshot.png "Landing Page Still")
 
-What I was supposed to deliver can be found [HERE](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+👉🏽 What I was supposed to deliver can be found [HERE](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 ***
 
 ## Table of Contents
-
 ***
-
 1. [Success Criteria](#SuccessCriteria)
 2. [Dependencies](#Dependencies)
 3. [Deployed Page](#DeployedPage)
