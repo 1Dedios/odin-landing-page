@@ -265,6 +265,34 @@ $grid-breakpoints: (
 );
  */
 
+/* 13 pro max */
+
+@media (max-width: 428px) {
+    * {
+        width: 100vw;
+        /* max-width: 100% !important; */
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 /* min 576px - 767.98px */
 
 @media (max-width: 767.98px) {
