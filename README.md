@@ -43,4 +43,4 @@ dependencies heer
 
 ## Deployed Page:
 
-[You can view the landing page here.] (https://1dedios.github.io/odin-landing-page/)
+[You can view the landing page here.](https://1dedios.github.io/odin-landing-page/)
