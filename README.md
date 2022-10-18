@@ -42,6 +42,7 @@ I was supposed to build a basic landing page with generic placeholders for image
 4. Quote Section Image - [Mountain Image](https://www.pexels.com/photo/gray-and-brown-mountain-417173/) 📸
 5. Canva - Where I created the navbar logo/video.
 6. Documenation (Organized by date - *not edited*) - [Documentation](https://www.notion.so/dediosprogramming/Odin-Landing-Page-965fd444c2554ceea97a1d20bce50e99) 📝
+7. Axe Dev Tools - Accessibility site scanner. 
 
 ***
 
